@@ -1,0 +1,75 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Stylisation du input de la calcultrice */
+
+.row input {
+    height: 80px;
+    width: 360px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 3px black;
+
+}
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Stylisation des boutons de la calcultrice */
+
+.col-lg-3 button {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px black;
+}
+
+.col-lg-6 button {
+    width: 140px;
+    height: 72px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 5px black;
+}
+
+/* Stylisation du bloc container-bouton de la calcultrice */
+
+
+.container-bouton {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Stylisation du bloc de la calcultrice */
+.calculatrice .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(114, 166, 239);
+    align-items: center;
+    box-shadow: 0px 0px 8px black;
+}
+
+.calculatrice .container {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+/* stylisation des lignes contenat les colonnes */
+.calculatrice .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
